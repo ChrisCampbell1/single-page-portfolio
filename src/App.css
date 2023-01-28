@@ -4,8 +4,7 @@ html {
 
 .app {
   display: flex;
-  text-align: center;
-  height: auto;
+  height: 100%;
 }
 
 .nav {
@@ -15,8 +14,10 @@ html {
   color: white;
   width: 20%;
   height: auto;
-  padding-top: 25px;
+  padding: 25px;
   align-items: flex-start;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, .5);
+  z-index: 1;
 }
 
 #headshot {
@@ -33,4 +34,34 @@ nav li {
 
 .nav a {
   color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: lightgray;
+  z-index: 0;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.pageContainer h1{
+  text-align: center;
+}
+
+#mountains {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid white;
 }
