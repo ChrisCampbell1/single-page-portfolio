@@ -1,5 +1,6 @@
-html {
+html, body {
   height: 100%;
+  background-color: #dedddd;
 }
 
 .app {
@@ -13,11 +14,15 @@ html {
   background-color: #010140;
   color: white;
   width: 20%;
-  height: auto;
+  height: 100%;
   padding: 25px;
   align-items: flex-start;
   box-shadow: 5px 0px 5px rgba(0, 0, 0, .5);
   z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* display: none; */
 }
 
 #headshot {
@@ -48,11 +53,14 @@ nav li {
 .pageContainer {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  background-color: rgb(222, 221, 221);
+  width: 77%;
+  height: 100%;
+  flex-grow: 1;
+  background-color: #dedddd;
   z-index: 0;
-  padding: 15px;
+  padding: 50px;
   font-size: 20px;
+  margin-left: 23%;
 }
 
 .pageContainer h1{
