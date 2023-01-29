@@ -10,7 +10,7 @@ html {
 .nav {
   display: flex;
   flex-direction: column;
-  background-color: rgb(1, 1, 64);
+  background-color: #010140;
   color: white;
   width: 20%;
   height: auto;
@@ -49,7 +49,7 @@ nav li {
   display: flex;
   flex-direction: column;
   width: 80%;
-  background-color: lightgray;
+  background-color: rgb(222, 221, 221);
   z-index: 0;
   padding: 15px;
   font-size: 20px;
@@ -57,6 +57,7 @@ nav li {
 
 .pageContainer h1{
   text-align: center;
+  color: #010140;
 }
 
 #mountains {
@@ -64,4 +65,34 @@ nav li {
   margin-left: auto;
   margin-right: auto;
   border: 3px solid white;
+}
+
+.contactCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactCard {
+  display: flex;
+  width: 150px;
+  height: 75px;
+  background-color: #010140;
+  margin: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactCard a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.contactCard a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
 }
