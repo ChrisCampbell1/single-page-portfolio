@@ -104,3 +104,7 @@ nav li {
   cursor: pointer;
   font-weight: bold;
 }
+
+.projectPreview img{
+  width: 33%;
+}
