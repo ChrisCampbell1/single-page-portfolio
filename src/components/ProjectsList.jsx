@@ -3,7 +3,7 @@ import ProjectPreview from "./ProjectPreview";
 const ProjectsList = (props) => {
   return (
     <>
-    {props.projects.map((project, idx) =>
+    {props.projectsArray.map((project, idx) =>
     <ProjectPreview key={idx} project={project}/>
     )}
     </>

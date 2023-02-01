@@ -1,9 +1,11 @@
+import { projectsArray } from "../data/projects"
+
 const ProjectDetails = () => {
   return (  
-    <>
-      <h1>Project Details</h1>
-    </>
+  <div className="pageContainer">
+    <h1>{projectsArray[0].title}</h1>
+  </div>
   )
 }
 
-export default ProjectDetail
+export default ProjectDetails

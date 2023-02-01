@@ -15,4 +15,6 @@ const projects = [
   }
 ]
 
-export {projects}
+export {
+  projects as projectsArray
+}
