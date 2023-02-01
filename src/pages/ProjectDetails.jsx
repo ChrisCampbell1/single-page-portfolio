@@ -8,13 +8,13 @@ const ProjectDetails = () => {
   console.log(project, "should be in the h1")
   return (  
   <div className="pageContainer">
-    <h1>{project[0].title}</h1>
+    <h1>{project.title}</h1>
     <p>
-    {project[0].description}
+    {project.description}
     </p>
-    <img src={project[0].image} alt="app screenshot" width="75%"/>
-    <a href={project[0].respositoryLink} target="_blank" rel="noreferrer">GitHub</a>
-    <a href={project[0].deploymentLink} target="_blank" rel="noreferrer">Deployed App</a>
+    <img src={project.image} alt="app screenshot" width="75%"/>
+    <a href={project.respositoryLink} target="_blank" rel="noreferrer">GitHub</a>
+    <a href={project.deploymentLink} target="_blank" rel="noreferrer">Deployed App</a>
   </div>
   )
 }
