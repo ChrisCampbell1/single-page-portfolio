@@ -22,19 +22,12 @@ html, body {
   position: fixed;
   left: 0;
   top: 0;
-  /* display: none; */
 }
 
 #headshot {
   border-radius: 50%;
   border: 3px solid white;
   width: 75%;
-}
-
-nav li {
-  list-style: none;
-  margin-bottom: 15px;
-  color: red;
 }
 
 .nav a {
