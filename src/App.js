@@ -10,6 +10,7 @@ import ProjectDetails from './pages/ProjectDetails';
 import AboutComp from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Welcome from './components/Welcome/Welcome';
+import ProjectsComp from './components/Projects/Projects';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Welcome />
       <AboutComp />
       <Skills />
+      <ProjectsComp />
       <Routes>
         {/* <Route path='/' element={<About />}/> */}
         <Route path='/about' element={<About />}/>

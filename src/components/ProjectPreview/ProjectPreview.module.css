@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  width: 500px;
+  padding: 1rem;
+  background-color: #dedddd;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}

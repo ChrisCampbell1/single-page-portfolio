@@ -1,12 +1,13 @@
-import ProjectPreview from "../ProjectPreview/ProjectPreview";
+import ProjectPreview from "../../components/ProjectPreview/ProjectPreview";
+import styles from "./ProjectsList.module.css"
 
 const ProjectsList = (props) => {
   return (
-    <>
-    {props.projectsArray.map((project, idx) =>
-    <ProjectPreview key={idx} project={project}/>
-    )}
-    </>
+    <div className={styles.container}>
+      {props.projectsArray.map((project, idx) =>
+      <ProjectPreview key={idx} project={project}/>
+      )}
+    </div>
   )
 }
 

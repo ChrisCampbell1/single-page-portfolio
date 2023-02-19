@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { hyphenateWords } from "../../utilities/hyphenateWords";
+import styles from "./ProjectPreview.module.css"
 
 const ProjectPreview = (props) => {
   let slug = hyphenateWords(props.project.title)
 
   return (  
-    <>
-    <div className="projectPreview">
+    <div className={styles.container}>
       <h3>
           {props.project.title}
       </h3>
@@ -21,7 +21,6 @@ const ProjectPreview = (props) => {
         </button>
       </Link>
     </div>
-    </>
   )
 }
 
