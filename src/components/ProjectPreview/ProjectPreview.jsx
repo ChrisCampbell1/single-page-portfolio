@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { hyphenateWords } from "../utilities/hyphenateWords";
+import { hyphenateWords } from "../../utilities/hyphenateWords";
 
 const ProjectPreview = (props) => {
   let slug = hyphenateWords(props.project.title)

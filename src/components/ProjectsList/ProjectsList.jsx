@@ -1,4 +1,4 @@
-import ProjectPreview from "./ProjectPreview";
+import ProjectPreview from "../ProjectPreview/ProjectPreview";
 
 const ProjectsList = (props) => {
   return (

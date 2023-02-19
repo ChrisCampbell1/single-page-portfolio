@@ -5,7 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
