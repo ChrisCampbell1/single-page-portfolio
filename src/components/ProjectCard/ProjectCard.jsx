@@ -1,27 +1,28 @@
 import { Link } from "react-router-dom";
 import { hyphenateWords } from "../../utilities/hyphenateWords";
-import styles from "./ProjectPreview.module.css"
+import styles from "./ProjectCard.module.css"
 
-const ProjectPreview = (props) => {
+const ProjectCard = (props) => {
   let slug = hyphenateWords(props.project.title)
 
   return (  
     <div className={styles.container}>
-      <h3>
+      <h2>
           {props.project.title}
-      </h3>
+      </h2>
       <img 
           src={props.project.image} 
           alt={props.project.title}
       />
-      <br />
-      <Link to={`/projects/${slug}`}>
+      <div className={styles.buttons}>
+        <a href={props.project.respositoryLink} target="_blank" rel="noreferrer">GitHub</a>
+        <a href={props.project.deploymentLink} target="_blank" rel="noreferrer">Deployed App</a>
         <button>
           Learn more
         </button>
-      </Link>
+      </div>
     </div>
   )
 }
 
-export default ProjectPreview;
+export default ProjectCard;

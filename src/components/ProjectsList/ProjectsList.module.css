@@ -1,5 +1,10 @@
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  overflow-x: scroll;
+  padding: 1rem;
+  width: 50rem;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 25rem;
+  scroll-snap-align: center;
 }
