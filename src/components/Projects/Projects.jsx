@@ -2,13 +2,13 @@ import styles from "./Projects.module.css"
 import { projectsArray } from "../../data/projects"
 import ProjectsList from "../ProjectsList/ProjectsList"
 
-const ProjectsComp = () => {
+const Projects = (props) => {
   return (  
     <div className={styles.container}>
-      <h1>this is a projects component</h1>
-        <ProjectsList projectsArray={projectsArray}/>
+      <h1>Projects</h1>
+        <ProjectsList projectsArray={projectsArray} setShowDetails={props.setShowDetails} setProjectState={props.setProjectState}/>
     </div>
   )
 }
 
-export default ProjectsComp
+export default Projects

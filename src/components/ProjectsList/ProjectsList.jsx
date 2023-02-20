@@ -5,7 +5,7 @@ const ProjectsList = (props) => {
   return (
     <div className={styles.container}>
       {props.projectsArray.map((project, idx) =>
-      <ProjectCard key={idx} project={project}/>
+      <ProjectCard key={idx} project={project} setShowDetails={props.setShowDetails} setProjectState={props.setProjectState}/>
       )}
     </div>
   )

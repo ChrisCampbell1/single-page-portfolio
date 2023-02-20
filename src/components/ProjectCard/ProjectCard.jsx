@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
 import { hyphenateWords } from "../../utilities/hyphenateWords";
 import styles from "./ProjectCard.module.css"
 
 const ProjectCard = (props) => {
-  let slug = hyphenateWords(props.project.title)
+  const handleBtnClick = () => {
+    props.setShowDetails(true)
+    props.setProjectState(props.project)
+  }
 
   return (  
     <div className={styles.container}>
@@ -17,7 +19,7 @@ const ProjectCard = (props) => {
       <div className={styles.buttons}>
         <a href={props.project.respositoryLink} target="_blank" rel="noreferrer">GitHub</a>
         <a href={props.project.deploymentLink} target="_blank" rel="noreferrer">Deployed App</a>
-        <button>
+        <button onClick={() => handleBtnClick()}>
           Learn more
         </button>
       </div>
