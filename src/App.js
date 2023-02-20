@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills';
 import Welcome from './components/Welcome/Welcome';
 import Projects from './components/Projects/Projects';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const [showDetails, setShowDetails] = useState(false)
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
       {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails}/>}
+      <Contact />
     </div>
   );
 }
