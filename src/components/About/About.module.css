@@ -41,14 +41,18 @@
   .left {
     margin-bottom: 1rem;
     width: 100%;
-  }
-  
-  .right {
-    width: 100%;
-    margin: 1rem;
+    padding: 0;
   }
 
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+  
   .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
   }
 }

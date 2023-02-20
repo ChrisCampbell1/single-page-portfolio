@@ -4,13 +4,13 @@
   overflow-x: scroll;
   padding: 1rem;
   width: 50rem;
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory;
   scroll-padding: 25rem;
-  scroll-snap-align: center;
+  scroll-snap-align: center; */
 }
 
 @media only screen and (max-width: 600px) {
   .container {
-  width: 100%;
+  width: 75%;
   }
 }
