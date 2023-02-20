@@ -5,3 +5,7 @@
   justify-content: center;
   margin-bottom: 3rem;
 }
+
+.container h1 {
+  margin-right: 2rem;
+}
