@@ -10,7 +10,7 @@ const Welcome = () => {
       <h3>A Fullstack Developer based in Denver, Colorado</h3>
       <div className={styles.buttons}>
         <a href="/assets/chris-campbell-resume.pdf" download>Resume</a>
-        {/* <Link>Get In Touch</Link> */}
+        <a href="#contact">Contact</a>
       </div>
     </div>
   )
