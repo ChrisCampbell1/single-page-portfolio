@@ -2,7 +2,7 @@ import styles from "./Skills.module.css"
 
 const Skills = () => {
   return ( 
-    <div className={styles.container}>
+    <div className={styles.container} id="skills">
       <h1>Skills</h1>
         <div className={styles.sideBySide}>
           <div className={styles.left}>

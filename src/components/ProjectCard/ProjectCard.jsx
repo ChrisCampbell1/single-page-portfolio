@@ -1,4 +1,3 @@
-import { hyphenateWords } from "../../utilities/hyphenateWords";
 import styles from "./ProjectCard.module.css"
 
 const ProjectCard = (props) => {

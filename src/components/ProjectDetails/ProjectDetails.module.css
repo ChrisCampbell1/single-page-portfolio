@@ -2,7 +2,8 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  background-color: #dedddd;
+  background-color: #6262737d;
+  backdrop-filter: blur(.5rem);
   width: 70rem;
   text-align: center;
   margin-left: auto;
@@ -34,16 +35,21 @@
 }
 
 .buttons a {
-  border: 2px solid black;
+  border: 2px solid white;
   padding: .5rem;
   margin: .5rem;
   border-radius: .5rem;
   margin-bottom: 1rem;
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
 .buttons a:hover {
-  /* tbd */
+  background-color: white;
+  color: #090979;
+}
+
+.container li {
+  margin-bottom: .25rem;
 }

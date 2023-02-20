@@ -1,34 +1,26 @@
 div.nav {
   display: flex;
-  flex-direction: column;
-  background-color: #010140;
+  flex-direction: row;
   color: white;
-  width: 20%;
-  height: 100%;
-  padding: 25px;
-  align-items: flex-start;
-  box-shadow: 5px 0px 5px rgba(0, 0, 0, .5);
-  z-index: 1;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
-  left: 0;
   top: 0;
-}
-
-#headshot {
-  border-radius: 50%;
-  border: 3px solid white;
-  width: 75%;
+  background-color: #6262737d;
+  backdrop-filter: blur(.5rem);
+  font-weight: bolder;
+  z-index: 1000;
 }
 
 .nav a {
   color: white;
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 1rem;
   text-decoration: none;
 }
 
 .nav a:hover {
   text-decoration: underline;
   cursor: pointer;
-  font-weight: bold;
 }

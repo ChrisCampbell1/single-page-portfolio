@@ -1,6 +1,4 @@
 import styles from "./Contact.module.css"
-import React, { useRef } from "react"
-import * as emailService from '../../services/emails'
 
 
 const Contact = () => {

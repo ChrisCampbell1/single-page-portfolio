@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 import './App.css';
-import AboutComp from './components/About/About';
+import NavBar from './components/NavBar/NavBar';
+import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Welcome from './components/Welcome/Welcome';
 import Projects from './components/Projects/Projects';
@@ -16,9 +16,9 @@ function App() {
   
   return (
     <div className='app'>
-      {/* <NavBar /> */}
+      <NavBar />
       <Welcome />
-      <AboutComp />
+      <About />
       <Skills />
       <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
       {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails}/>}
