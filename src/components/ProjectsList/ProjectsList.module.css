@@ -8,3 +8,9 @@
   scroll-padding: 25rem;
   scroll-snap-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+  width: 100%;
+  }
+}

@@ -33,3 +33,11 @@
   background-color: white;
   color: #090979;
 }
+
+@media only screen and (max-width: 600px) {
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

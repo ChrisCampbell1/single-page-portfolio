@@ -30,3 +30,18 @@
 .container li {
   margin-bottom: .25rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .sideBySide{
+    flex-direction: column;
+  }
+
+  .container h1 {
+  margin-right: 0;
+  }
+
+  .container {
+    padding: 0;
+    margin: 1rem;
+  }
+}

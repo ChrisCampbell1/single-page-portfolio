@@ -58,3 +58,18 @@ button {
   background-color: unset;
   transition-duration: .25s;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+  width: 100%;
+  }
+
+  .container img {
+    width: 90%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
