@@ -12,6 +12,7 @@
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid white;
 }
 
 .buttons a {
