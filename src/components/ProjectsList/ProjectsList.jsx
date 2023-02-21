@@ -26,11 +26,6 @@ const ProjectsList = (props) => {
   }
 
   return (
-    // <div className={styles.container}>
-    //   {props.projectsArray.map((project, idx) =>
-    //   <ProjectCard key={idx} project={project} setShowDetails={props.setShowDetails} setProjectState={props.setProjectState}/>
-    //   )}
-    // </div>
     <div className={styles.container}>
       <button onClick={() => handlePrevious()}>Prev</button>
       <ProjectCard project={props.projectsArray[index]} setShowDetails={props.setShowDetails} setProjectState={props.setProjectState}/>
