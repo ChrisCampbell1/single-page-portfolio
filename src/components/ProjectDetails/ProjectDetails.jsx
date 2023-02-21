@@ -20,9 +20,12 @@ const ProjectDetails = ({ project, setShowDetails }) => {
         <li key={idx}>{technology}</li>
         )}
       </ul>
-      <button onClick={() => handleBtnClick()}>
+      <a href="#projects" onClick={() => handleBtnClick()} id={styles.close}>
         Close
-      </button>
+      </a>
+      {/* <button onClick={() => handleBtnClick()}>
+        Close
+      </button> */}
     </div>
   )
 }
