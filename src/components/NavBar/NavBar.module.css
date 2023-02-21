@@ -24,3 +24,9 @@ div.nav {
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  div.nav{
+    font-weight: normal;
+  }
+}

@@ -23,9 +23,6 @@ const ProjectDetails = ({ project, setShowDetails }) => {
       <a href="#projects" onClick={() => handleBtnClick()} id={styles.close}>
         Close
       </a>
-      {/* <button onClick={() => handleBtnClick()}>
-        Close
-      </button> */}
     </div>
   )
 }
