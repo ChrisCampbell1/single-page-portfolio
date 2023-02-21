@@ -10,3 +10,12 @@
 .container h1{
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+}
