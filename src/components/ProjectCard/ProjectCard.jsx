@@ -18,9 +18,9 @@ const ProjectCard = (props) => {
       <div className={styles.buttons}>
         <a href={props.project.respositoryLink} target="_blank" rel="noreferrer">GitHub</a>
         <a href={props.project.deploymentLink} target="_blank" rel="noreferrer">Deployed App</a>
-        <button onClick={() => handleBtnClick()}>
-          Learn more
-        </button>
+        <a href="#details" onClick={() => handleBtnClick()}>
+          Learn More
+        </a>
       </div>
     </div>
   )

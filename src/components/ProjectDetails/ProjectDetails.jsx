@@ -6,7 +6,7 @@ const ProjectDetails = ({ project, setShowDetails }) => {
   }
 
   return (  
-    <div className={styles.container}>
+    <div className={styles.container} id="details">
       <h1>{project.title}</h1>
       <img src={project.image} alt={`screenshot of ${project.title}`} />
       <div className={styles.buttons}>
