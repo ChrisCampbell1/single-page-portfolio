@@ -68,4 +68,9 @@
   .container .buttons {
     padding-left: 1rem;
   }
+
+  .container .buttons a {
+    font-size: .75rem;
+    padding: .5rem;
+  }
 }
