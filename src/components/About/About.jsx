@@ -18,7 +18,7 @@ const About = () => {
           <p>
             I'm open to rolls based in the Denver metro as well as remote opportunities. I also have the bandwidth to take on freelance development work. Thanks for stopping by and I look forward to working with you!
           </p>
-          <h3>Interests outside of engineering</h3>
+          <h3>Interests outside of engineering<span>:</span></h3>
           <ul>
             <li>Skiing</li>
             <li>Foreign languages, I'm fluent in Spanish and very proficient in Italian</li>
