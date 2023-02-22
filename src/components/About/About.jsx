@@ -1,10 +1,6 @@
 import styles from "./About.module.css"
-import { useInView } from "react-intersection-observer"
 
-const About = () => {
-  const { ref: leftRef, inView: leftIsVisible } = useInView()
-  const { ref: rightRef, inView: rightIsVisible } = useInView()
-  
+const About = () => {  
   return (  
     <div className={styles.container} id="about">
       <h1><span>&lt; </span>About Me<span> /&gt;</span></h1>
