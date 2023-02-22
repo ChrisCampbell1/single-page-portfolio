@@ -3,10 +3,10 @@ import styles from "./Skills.module.css"
 const Skills = () => {
   return ( 
     <div className={styles.container} id="skills">
-      <h1>Skills</h1>
+      <h1><span>&lt; </span>Skills<span> /&gt;</span></h1>
         <div className={styles.sideBySide}>
           <div className={styles.left}>
-            <h3>Frontend:</h3>
+            <h3>Frontend<span>:</span></h3>
               <ul>
                 <li>
                   JavaScript
@@ -29,7 +29,7 @@ const Skills = () => {
               </ul>
           </div>
           <div className={styles.center}>
-            <h3>Backend:</h3>
+            <h3>Backend<span>:</span></h3>
             <ul>
                 <li>
                   Node
@@ -52,7 +52,7 @@ const Skills = () => {
               </ul>
           </div>
           <div className={styles.right}>
-            <h3>Other:</h3>
+            <h3>Other<span>:</span></h3>
             <ul>
               <li>
                 Leadership

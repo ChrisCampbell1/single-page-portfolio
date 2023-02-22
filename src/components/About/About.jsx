@@ -3,7 +3,7 @@ import styles from "./About.module.css"
 const About = () => {
   return (  
     <div className={styles.container} id="about">
-      <h1>About Me</h1>
+      <h1><span>&lt; </span>About Me<span> /&gt;</span></h1>
       <div className={styles.sideBySide} >
         <div className={styles.left + ' animate__animated animate__slideInLeft'}>
           <img id={styles.mountains} src="/assets/mountains.jpg" alt="chris smiling in the mountains" />

@@ -8,6 +8,10 @@
   background-color: #161515;
 }
 
+.container li::marker {
+  color: #00abe9
+}
+
 .sideBySide {
   display: flex;
   flex-direction: row;
