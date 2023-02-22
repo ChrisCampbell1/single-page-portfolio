@@ -4,11 +4,11 @@ const About = () => {
   return (  
     <div className={styles.container} id="about">
       <h1>About Me</h1>
-      <div className={styles.sideBySide}>
-        <div className={styles.left}>
+      <div className={styles.sideBySide} >
+        <div className={styles.left + ' animate__animated animate__slideInLeft'}>
           <img id={styles.mountains} src="/assets/mountains.jpg" alt="chris smiling in the mountains" />
         </div>
-        <div className={styles.right}>
+        <div className={styles.right + ' animate__animated animate__slideInRight'}>
           <p>
             I'm a fullstack engineer about to graduate from General Assembly's software engineering bootcamp and I'd love to join your team! I have experience ranging from creating beautiful frontend React apps to building RESTful APIs with Express and Node.
           </p>

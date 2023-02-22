@@ -5,6 +5,7 @@
   padding: 3rem;
   font-size: 1rem;
   margin-bottom: 3rem;
+  background-color: #161515;
 }
 
 .sideBySide {
@@ -18,9 +19,9 @@
 }
 
 .right {
-  background-color: #6262737d;
-  backdrop-filter: blur(.5rem);
-  border-radius: .5rem;
+  /* background-color: #6262737d; */
+  /* backdrop-filter: blur(.5rem); */
+  /* border-radius: .5rem; */
 }
 
 .container h1{
@@ -30,15 +31,14 @@
 #mountains {
   width: 100%;
   height: 100%;
-  border-radius: .5rem;
 }
 
 @media only screen and (max-width: 600px) {
   .container {
-    width: 90%;
+    /* width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding: 0; */
   }
 
   .sideBySide{
@@ -54,7 +54,6 @@
   #mountains {
   width: 100%;
   height: 100%;
-  border-radius: .5rem;
 }
 
   .right {

@@ -1,14 +1,15 @@
 .container {
-  padding: 1rem;
+  /* padding: 1rem; */
   display: flex;
   flex-direction: column;
-  background-color: #6262737d;
-  backdrop-filter: blur(.5rem);
+  /* background-color: #6262737d;
+  backdrop-filter: blur(.5rem); */
+  background-color: #161515;
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: .5rem;
+  /* border-radius: .5rem; */
 }
 
 .container img {
@@ -17,6 +18,11 @@
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container p {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .container ul {
@@ -47,7 +53,7 @@
 
 .container a:hover {
   background-color: white;
-  color: #090979;
+  color: #00abe9;
 }
 
 .container li {
@@ -65,12 +71,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container{
-    width: 90%;
-  }
   
+  .container p{
+    padding: 1rem;
+  }
+
   .container img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 }

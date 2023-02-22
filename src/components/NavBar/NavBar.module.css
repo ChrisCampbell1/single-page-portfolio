@@ -8,8 +8,11 @@ div.nav {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: #6262737d;
-  backdrop-filter: blur(.5rem);
+  /* background-color: #6262737d;
+  backdrop-filter: blur(.5rem); */
+  background-color: #161515;
+  /* padding-left: 4rem;
+  padding-right: 4rem; */
   font-weight: bolder;
   z-index: 1000;
 }

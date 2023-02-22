@@ -2,10 +2,11 @@
   text-align: center;
   width: 25rem;
   padding: 1rem;
-  background-color: #6262737d;
-  backdrop-filter: blur(.5rem);
+  /* background-color: #6262737d;
+  backdrop-filter: blur(.5rem); */
+  background-color: #161515;
   margin: 1rem;
-  border-radius: .5rem;
+  /* border-radius: .5rem; */
   scroll-snap-align: center;
 }
 
@@ -13,7 +14,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.container h2 {
   margin-top: 0;
 }
 
@@ -42,7 +43,7 @@ img{
 
 .buttons a:hover, button:hover {
   background-color: white;
-  color: #090979;
+  color: #00abe9;
   cursor: pointer;
 }
 
