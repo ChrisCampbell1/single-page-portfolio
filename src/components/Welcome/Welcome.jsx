@@ -3,7 +3,7 @@ import styles from "./Welcome.module.css"
 const Welcome = () => {
   return (  
     <div className={styles.container}>
-      <div id={styles.hero} className="animate__animated animate__slideInRight">
+      <div id={styles.hero} className="animate__animated animate__slideInRight animate__slow">
       <h1>Hi, I'm Chris Campbell</h1>
       <h1>A <span>fullstack developer</span></h1>
       <h1>based in Denver, CO.</h1>

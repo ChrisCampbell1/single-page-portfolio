@@ -5,10 +5,10 @@ const About = () => {
     <div className={styles.container} id="about">
       <h1><span>&lt; </span>About Me<span> /&gt;</span></h1>
       <div className={styles.sideBySide} >
-        <div className={styles.left + ' animate__animated animate__slideInLeft'}>
+        <div className={styles.left + ' animate__animated animate__slideInLeft animate__slow'}>
           <img id={styles.mountains} src="/assets/mountains.jpg" alt="chris smiling in the mountains" />
         </div>
-        <div className={styles.right + ' animate__animated animate__slideInRight'}>
+        <div className={styles.right + ' animate__animated animate__slideInRight animate__slow'}>
           <p>
             I'm a fullstack engineer about to graduate from General Assembly's software engineering bootcamp and I'd love to join your team! I have experience ranging from creating beautiful frontend React apps to building RESTful APIs with Express and Node.
           </p>
