@@ -1,10 +1,9 @@
 import styles from "./About.module.css"
 import { useInView } from "react-intersection-observer"
-import { useRef } from "react"
 
 const About = () => {
-  const { ref: leftRef, inView: leftIsVisible } = useInView();
-  const { ref: rightRef, inView: rightIsVisible } = useInView();
+  const { ref: leftRef, inView: leftIsVisible } = useInView()
+  const { ref: rightRef, inView: rightIsVisible } = useInView()
   
   return (  
     <div className={styles.container} id="about">
