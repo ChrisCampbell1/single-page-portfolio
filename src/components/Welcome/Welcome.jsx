@@ -2,10 +2,11 @@ import styles from "./Welcome.module.css"
 import { useInView } from "react-intersection-observer"
 
 const Welcome = () => {
-  const { ref: heroRef, inView: heroIsVisible } = useInView()
+  // const { ref: heroRef, inView: heroIsVisible } = useInView()
   return (  
     <div className={styles.container}>
-      <div ref={heroRef} id={styles.hero} className={`${heroIsVisible ? ' animate__animated animate__slideInRight animate__slow' : ''}`}>
+      <div id={styles.hero} className={' animate__animated animate__slideInRight animate__slow'}>
+      {/* <div ref={heroRef} id={styles.hero} className={`${heroIsVisible ? ' animate__animated animate__slideInRight animate__slow' : ''}`}> */}
       <h1>Hi, I'm Chris Campbell</h1>
       <h1>A <span>fullstack developer</span></h1>
       <h1>based in Denver, CO.</h1>
