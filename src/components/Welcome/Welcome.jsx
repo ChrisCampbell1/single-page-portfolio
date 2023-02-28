@@ -1,5 +1,5 @@
 import styles from "./Welcome.module.css"
-import { useInView } from "react-intersection-observer"
+// import { useInView } from "react-intersection-observer"
 
 const Welcome = () => {
   // const { ref: heroRef, inView: heroIsVisible } = useInView()
