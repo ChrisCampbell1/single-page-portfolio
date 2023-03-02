@@ -8,13 +8,10 @@ div.nav {
   align-items: center;
   position: fixed;
   top: 0;
-  /* background-color: #6262737d;
-  backdrop-filter: blur(.5rem); */
   background-color: #161515;
-  /* padding-left: 4rem;
-  padding-right: 4rem; */
   font-weight: bolder;
   z-index: 1000;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .nav a {
@@ -26,7 +23,6 @@ div.nav {
 }
 
 .nav a:hover {
-  /* text-decoration: underline; */
   cursor: pointer;
   color: #00b7fa
 }

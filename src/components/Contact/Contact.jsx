@@ -16,9 +16,9 @@ const Contact = () => {
       <h1>Let's work together<span>!</span></h1>
       <div className={styles.buttons}>
         <a href="mailto:christopherecampbell@gmail.com">Email Me</a>
-        <a href="tel: 248-877-0395">Call Me</a>
         <a href="https://www.linkedin.com/in/campbell6/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
         <a href="https://github.com/ChrisCampbell1/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="/assets/chris-campbell-resume.pdf" download>Resume</a>
       </div>
       <img src="/assets/logo.png" alt="logo" />
       {/* <form ref={form} onSubmit={sendEmail}>

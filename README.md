@@ -7,4 +7,3 @@ I built this portfolio with React to show off my work. Take a look [here](https:
 ### Attributions
 - Fonts from Google Fonts
 - Animations from Animate.style
-- Major help with on scroll animations from [Cody Fayock](https://github.com/colbyfayock)
