@@ -49,4 +49,8 @@
   .container h1 {
   margin-right: 0;
   }
+
+  .sideBySide div {
+    width: 90%;
+  }
 }
