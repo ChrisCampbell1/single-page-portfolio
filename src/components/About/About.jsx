@@ -12,13 +12,13 @@ const About = () => {
         <div className={styles.right}>
         {/* <div ref={rightRef} className={`${styles.right} ${rightIsVisible ? ' animate__animated animate__slideInRight animate__slow' : ''}`}> */}
           <p>
-            I'm a fullstack engineer about to graduate from General Assembly's software engineering bootcamp and I'd love to join your team! I have experience ranging from creating beautiful frontend React apps to building RESTful APIs with Express and Node.
+            I'm a fullstack engineer about to graduate from General Assembly's software engineering bootcamp and I'd love to join your team! I have experience ranging from creating beautiful frontend React.js apps to building RESTful APIs with Express.js and Node.js.
           </p>
           <p>
             Before transitioning into software engineering, I spent 13 years working in sales and marketing primarily for e-commerce companies in the furniture and interior design space.
           </p>
           <p>
-            I'm open to rolls based in the Denver metro as well as remote opportunities. I also have the bandwidth to take on freelance development work. Thanks for stopping by and I look forward to working with you!
+            I'm open to roles based in the Denver metro as well as remote opportunities. I also have the bandwidth to take on freelance development work. Thanks for stopping by and I look forward to working with you!
           </p>
           <h3>Interests outside of engineering<span>:</span></h3>
           <ul>

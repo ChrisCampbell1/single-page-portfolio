@@ -1,11 +1,19 @@
 const projects = [
   {
+    title: "Après",
+    description: "As an avid skier, I've always wanted a platform like Après to exist. There are all sorts of places online where you can buy and sell used items but I haven't found one that focuses on winter sports. I created Après as a marketplace where users can create listings for the gear they no longer want. Potential buyers can filter those listings to find gear that they are looking for and connect with sellers to purchase their listings.",
+    image: "/assets/apres.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/apres-front-end",
+    deploymentLink: "https://apres.netlify.app/",
+    technologies: ["TypeScript","React.js", "RESTful APIs", "Node.js", "Express", "PostgreSQL", "HTML", "CSS"],
+  },
+  {
     title: "FreshStart",
     description: "FreshStart is a mobile-first group project. In one week, my team coordinated across 3 time zones to create a social media platform connecting wellness creators with people starting a wellness journey and an API with full CRUD for multiple data resources.",
     image: "/assets/freshstart.png",
     respositoryLink: "https://github.com/ChrisCampbell1/fresh-start-front-end",
     deploymentLink: "https://startfresh.netlify.app/",
-    technologies: ["React", "JavaScript", "RESTful APIs", "Node", "Express", "MongoDB", "HTML", "CSS"],
+    technologies: ["React.js", "JavaScript", "RESTful APIs", "Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
   },
   {
     title: "Butter",

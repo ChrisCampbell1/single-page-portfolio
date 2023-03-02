@@ -15,7 +15,7 @@ const Skills = () => {
                   TypeScript
                 </li>
                 <li>
-                  React
+                  React.js
                 </li>
                 <li>
                   HTML
@@ -32,10 +32,10 @@ const Skills = () => {
             <h3>Backend<span>:</span></h3>
             <ul>
                 <li>
-                  Node
+                  Node.js
                 </li>
                 <li>
-                  Express
+                  Express.js
                 </li>
                 <li>
                   RESTful APIs
@@ -47,7 +47,7 @@ const Skills = () => {
                   PostgreSQL
                 </li>
                 <li>
-                  Oauth and JWT
+                  OAuth and JWT
                 </li>
               </ul>
           </div>

@@ -4,7 +4,8 @@
   padding: 1rem;
   /* background-color: #6262737d;
   backdrop-filter: blur(.5rem); */
-  background-color: #161515;
+  /* background-color: #161515; */
+  background-color: black;
   margin: 1rem;
   /* border-radius: .5rem; */
   scroll-snap-align: center;
@@ -22,6 +23,7 @@ h1 {
   width: 24rem;
   height: 12rem;
   object-fit: cover;
+  border: 2px solid white;
 }
 
 .buttons {
@@ -67,6 +69,8 @@ button {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #161515;
+
   }
 
   .container img {
