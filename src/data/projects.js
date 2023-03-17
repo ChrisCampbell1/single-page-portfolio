@@ -6,6 +6,7 @@ const projects = [
     respositoryLink: "https://github.com/ChrisCampbell1/apres-front-end",
     deploymentLink: "https://apres.netlify.app/",
     technologies: ["TypeScript","React.js", "RESTful APIs", "Node.js", "Express", "PostgreSQL", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/80a3a7b7a67a432c89af06fc29ce9a12"
   },
   {
     title: "FreshStart",
@@ -14,6 +15,16 @@ const projects = [
     respositoryLink: "https://github.com/ChrisCampbell1/fresh-start-front-end",
     deploymentLink: "https://startfresh.netlify.app/",
     technologies: ["React.js", "JavaScript", "RESTful APIs", "Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/aedb8c80cd6a467c849b38912c6f480c"
+  },
+  {
+    title: "Plantivity",
+    description: "General Assembly Spring 2023 Hackathon project developed over 4 days with a cross-functional team of developers and designers addressing the theme of gamifying life. Plantivitiy helps users balance priorities to stay productive without burning out. Pitched out project to a panel of 4 industry experts.",
+    image: "/assets/plantivity.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/team6-hackathon-fe",
+    deploymentLink: "https://plantivity.netlify.app/",
+    technologies: ["React.js", "JavaScript", "RESTful APIs", "Figma","Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/0d623db6241d4aa9a9a818f6f18ef1a2"
   },
   {
     title: "Butter",
@@ -22,6 +33,7 @@ const projects = [
     respositoryLink: "https://github.com/ChrisCampbell1/butter",
     deploymentLink: "https://butterapp.fly.dev/",
     technologies: ["JavaScript", "RESTful APIs", "Node", "Express", "MongoDB", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/c9efb1683c1d4e9d8bf5ad11c410d7a4"
   },
   {
     title: "YASSZEE",
@@ -30,6 +42,7 @@ const projects = [
     respositoryLink: "https://github.com/ChrisCampbell1/yasszee",
     deploymentLink: "https://yasszee.netlify.app/",
     technologies: ["JavaScript", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/3b0dd36fbd8e4066b1f3fa5e6b5ee91b"
   }
 ]
 

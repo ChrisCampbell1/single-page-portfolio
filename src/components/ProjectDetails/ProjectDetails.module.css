@@ -70,14 +70,32 @@
   margin-right: auto;
 }
 
+.container .video {
+  height: 38rem;
+}
+
+.container .video iframe{
+  width: 90%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   
   .container p{
     padding: 1rem;
+    margin: 1rem;
   }
 
   .container img {
     width: 90%;
     height: auto;
+  }
+  .container .video {
+    height: 10rem;
+  }
+  
+  .container .video iframe{
+    width: 90%;
+    height: 100%;
   }
 }
