@@ -24,7 +24,7 @@ const Skills = () => {
                   CSS
                 </li>
                 <li>
-                  EJS
+                  Figma
                 </li>
               </ul>
           </div>
