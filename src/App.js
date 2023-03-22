@@ -18,9 +18,9 @@ function App() {
     <div className='app'>
       <NavBar />
       <Welcome />
+      <About />
       <Projects setShowDetails={setShowDetails} setProjectState={setProjectState}/>
       {showDetails && <ProjectDetails project={projectState} setShowDetails={setShowDetails}/>}
-      <About />
       <Skills />
       <Contact />
     </div>
