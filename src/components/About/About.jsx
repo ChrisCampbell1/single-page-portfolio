@@ -12,7 +12,7 @@ const About = () => {
         <div className={styles.right}>
         {/* <div ref={rightRef} className={`${styles.right} ${rightIsVisible ? ' animate__animated animate__slideInRight animate__slow' : ''}`}> */}
           <p>
-            I'm a fullstack engineer about to graduate from General Assembly's software engineering bootcamp and I'd love to join your team! I have experience ranging from creating beautiful frontend React.js apps to building RESTful APIs with Express.js and Node.js.
+            I'm a fullstack engineer based in Denver, Colorado and I'd love to join your team! I have experience ranging from creating beautiful frontend React.js apps to building RESTful APIs with Express.js and Node.js.
           </p>
           <p>
             Before transitioning into software engineering, I spent 13 years working in sales and marketing primarily for e-commerce companies in the furniture and interior design space.
