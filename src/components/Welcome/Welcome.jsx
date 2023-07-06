@@ -9,7 +9,7 @@ const Welcome = () => {
       {/* <div ref={heroRef} id={styles.hero} className={`${heroIsVisible ? ' animate__animated animate__slideInRight animate__slow' : ''}`}> */}
       <h1>Hi, I'm Chris Campbell</h1>
       <h1>A <span>fullstack developer</span></h1>
-      <h1>based in Denver, CO.</h1>
+      <h1>specializing in react</h1>
       </div>
       <div className={styles.buttons}>
         <a href="/assets/chris-campbell-resume.pdf" download>Resume</a>
