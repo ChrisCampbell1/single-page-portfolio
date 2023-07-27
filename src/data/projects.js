@@ -27,6 +27,15 @@ const projects = [
     video: "https://www.loom.com/embed/0d623db6241d4aa9a9a818f6f18ef1a2"
   },
   {
+    title: "Real Estate Website CMS",
+    description: "I built this app as a template website for real estate agents. Based on my experience selling real estate, I always felt like the tools available for agents were either way too basic or far too technical for agents to use. I built this app with a simple to use CMS to allow agents to add and manage the most important content for marketing and lead generation purposes. The two features I'm most proud of are the blogging feature that includes easily sharable links for both individual posts and category pages based on hashtags and the ability to dynamically generate landing pages for neighborhoods that are automatically added to the navigation bar.",
+    image: "/assets/recms.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/re-demo-fe",
+    deploymentLink: "https://re-page-builder.netlify.app/",
+    technologies: ["React.js", "JavaScript","Node.js", "React Helmet Async","Express.js", "MongoDB","Framer Motion", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/aff36a099f3e43e587e554c4b2f58ed4"
+  },
+  {
     title: "Dev Daddy",
     description: "Marketing website for a web development agency. I used React.js, Bootstrap, and vanilla CSS to create a compelling brand and website to generate leads from real estate agents who need better websites.",
     image: "/assets/devdaddy.png",
