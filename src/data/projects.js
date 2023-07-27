@@ -27,6 +27,15 @@ const projects = [
     video: "https://www.loom.com/embed/0d623db6241d4aa9a9a818f6f18ef1a2"
   },
   {
+    title: "Dev Daddy",
+    description: "Marketing website for a web development agency. I used React.js, Bootstrap, and vanilla CSS to create a compelling brand and website to generate leads from real estate agents who need better websites.",
+    image: "/assets/devdaddy.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/dd-fe",
+    deploymentLink: "https://devdaddydigital.com/",
+    technologies: ["React.js", "JavaScript", "Bootstrap","Node.js", "React Helmet Async","Express.js", "Framer Motion", "HTML", "CSS"],
+    video: "#"
+  },
+  {
     title: "Butter",
     description: "Butter is a node.js cookbook application that lets you search, save, import, and copy recipes that you can edit and leave notes on over time. No more guessing on if you used 2 or 3 tablespoons of turmeric in that curry you love. Keeping track of your favorite recipes is as easy as Butter.",
     image: "/assets/butter.png",
