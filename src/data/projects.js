@@ -5,7 +5,7 @@ const projects = [
     image: "/assets/apres.png",
     respositoryLink: "https://github.com/ChrisCampbell1/apres-front-end",
     deploymentLink: "https://apres.netlify.app/",
-    technologies: ["TypeScript","React.js", "RESTful APIs", "Node.js", "Express", "PostgreSQL", "HTML", "CSS"],
+    technologies: ["TypeScript", "React.js", "RESTful APIs", "Node.js", "Express", "PostgreSQL", "HTML", "CSS"],
     video: "https://www.loom.com/embed/80a3a7b7a67a432c89af06fc29ce9a12"
   },
   {
@@ -18,21 +18,12 @@ const projects = [
     video: "https://www.loom.com/embed/aedb8c80cd6a467c849b38912c6f480c"
   },
   {
-    title: "Plantivity",
-    description: "General Assembly Spring 2023 Hackathon project developed over 4 days with a cross-functional team of developers and designers addressing the theme of gamifying life. Plantivitiy helps users balance priorities to stay productive without burning out. Pitched out project to a panel of 4 industry experts.",
-    image: "/assets/plantivity.png",
-    respositoryLink: "https://github.com/ChrisCampbell1/team6-hackathon-fe",
-    deploymentLink: "https://plantivity.netlify.app/",
-    technologies: ["React.js", "JavaScript", "RESTful APIs", "Figma","Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
-    video: "https://www.loom.com/embed/0d623db6241d4aa9a9a818f6f18ef1a2"
-  },
-  {
     title: "Real Estate Website CMS",
     description: "I built this app as a template website for real estate agents. Based on my experience selling real estate, I always felt like the tools available for agents were either way too basic or far too technical for agents to use. I built this app with a simple to use CMS to allow agents to add and manage the most important content for marketing and lead generation purposes. The two features I'm most proud of are the blogging feature that includes easily sharable links for both individual posts and category pages based on hashtags and the ability to dynamically generate landing pages for neighborhoods that are automatically added to the navigation bar.",
     image: "/assets/recms.png",
     respositoryLink: "https://github.com/ChrisCampbell1/re-demo-fe",
     deploymentLink: "https://re-page-builder.netlify.app/",
-    technologies: ["React.js", "JavaScript","Node.js", "React Helmet Async","Express.js", "MongoDB","Framer Motion", "HTML", "CSS"],
+    technologies: ["React.js", "JavaScript", "Node.js", "React Helmet Async", "Express.js", "MongoDB", "Framer Motion", "HTML", "CSS"],
     video: "https://www.loom.com/embed/aff36a099f3e43e587e554c4b2f58ed4"
   },
   {
@@ -41,8 +32,17 @@ const projects = [
     image: "/assets/devdaddy.png",
     respositoryLink: "https://github.com/ChrisCampbell1/dd-fe",
     deploymentLink: "https://devdaddydigital.com/",
-    technologies: ["React.js", "JavaScript", "Bootstrap","Node.js", "React Helmet Async","Express.js", "Framer Motion", "HTML", "CSS"],
+    technologies: ["React.js", "JavaScript", "Bootstrap", "Node.js", "React Helmet Async", "Express.js", "Framer Motion", "HTML", "CSS"],
     video: "https://www.loom.com/embed/66976556e3c545a4a49502265606b62f"
+  },
+  {
+    title: "Plantivity",
+    description: "General Assembly Spring 2023 Hackathon project developed over 4 days with a cross-functional team of developers and designers addressing the theme of gamifying life. Plantivitiy helps users balance priorities to stay productive without burning out. Pitched out project to a panel of 4 industry experts.",
+    image: "/assets/plantivity.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/team6-hackathon-fe",
+    deploymentLink: "https://plantivity.netlify.app/",
+    technologies: ["React.js", "JavaScript", "RESTful APIs", "Figma", "Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/0d623db6241d4aa9a9a818f6f18ef1a2"
   },
   {
     title: "Butter",
