@@ -33,7 +33,7 @@ const projects = [
     respositoryLink: "https://github.com/ChrisCampbell1/dd-fe",
     deploymentLink: "https://devdaddydigital.com/",
     technologies: ["React.js", "JavaScript", "Bootstrap","Node.js", "React Helmet Async","Express.js", "Framer Motion", "HTML", "CSS"],
-    video: "#"
+    video: "https://www.loom.com/embed/66976556e3c545a4a49502265606b62f"
   },
   {
     title: "Butter",
