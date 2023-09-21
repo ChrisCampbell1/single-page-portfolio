@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Cook Lore",
+    description: "Winner of General Assembly's September Sprint Hackathon. Over the course of 3.5 days my team (2 devs and 4 UX designers) tackled the theme of accessibility. We all had stories of special recipes and traditions in our families that had been lost to time, spills, or never being properly documented. We built Cook Lore with the needs of older users in mind to help them document and share recipes and traditions with their family members to be passed along to generations to come. The colors, user flow, components, and being developed for tablet users first all took our user persona (Mama Maxine) into account. The app works well for people with lack of color saturation or blurry vision and uses large buttons for people with limited dexterity in their hands.",
+    image: "/assets/cooklore.png",
+    respositoryLink: "https://github.com/ChrisCampbell1/sep-hackathon-fe",
+    deploymentLink: "https://cooklore.netlify.app/",
+    technologies: ["React.js", "JavaScript", "RESTful APIs", "Figma", "Node.js", "Express.js", "MongoDB", "HTML", "CSS"],
+    video: "https://www.loom.com/embed/0ed691ff00e54475a021dc3c5fa6cd77"
+  },
+  {
     title: "Après",
     description: "As an avid skier, I've always wanted a platform like Après to exist. There are all sorts of places online where you can buy and sell used items but I haven't found one that focuses on winter sports. I created Après as a marketplace where users can create listings for the gear they no longer want. Potential buyers can filter those listings to find gear that they are looking for and connect with sellers to purchase their listings.",
     image: "/assets/apres.png",
